@@ -48,8 +48,13 @@ use App\HTTP\Controllers\BilingController;
 */
 
 Route::get('/', function () {
-    return view('home.home');
-})->name('home.home');
+    return 'Laravel is working!';
+});
+
+
+// Route::get('/', function () {
+//     return view('home.home');
+// })->name('home.home');
 
 // Route::get('/', function () {
 //     return view('campaigns.campaigns');
